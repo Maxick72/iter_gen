@@ -57,8 +57,6 @@ def test_2():
         ['d', 'e', 'f', 'h', False],
         [1, 2, None]
     ]
-    # for item in flat_generator(list_of_lists_1):
-    #     print(item)
 
     for flat_iterator_item, check_item in zip(
         flat_generator(list_of_lists_1),
